@@ -145,7 +145,7 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="md:col-span-1">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=800&fit=crop" 
                   alt="Ashutosh Gadekar" 
                   className="w-full rounded-lg object-cover aspect-square border border-white/10"
                 />
@@ -269,7 +269,7 @@ const Index = () => {
             <ProjectCard
               title="Sales Dashboard"
               description="Interactive Power BI dashboard for real-time sales analytics and performance tracking."
-              image="/placeholder.svg"
+              image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=500&fit=crop"
               technologies={["Power BI", "DAX", "SQL"]}
               githubLink="#"
               liveLink="#"
@@ -278,7 +278,7 @@ const Index = () => {
             <ProjectCard
               title="E-commerce Platform"
               description="Full-stack e-commerce platform with customer analytics and inventory management."
-              image="/placeholder.svg"
+              image="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=500&fit=crop"
               technologies={["React", "Node.js", "MongoDB", "Express"]}
               githubLink="#"
               liveLink="#"
@@ -287,7 +287,7 @@ const Index = () => {
             <ProjectCard
               title="Customer Segmentation"
               description="Machine learning model for customer segmentation and personalized marketing."
-              image="/placeholder.svg"
+              image="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=500&fit=crop"
               technologies={["Python", "scikit-learn", "Pandas", "Matplotlib"]}
               githubLink="#"
               className={`transition-all duration-700 delay-300 ${isVisible.projects ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
@@ -295,7 +295,7 @@ const Index = () => {
             <ProjectCard
               title="Social Media Analytics"
               description="Tool for analyzing social media data and visualizing engagement metrics."
-              image="/placeholder.svg"
+              image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=500&fit=crop"
               technologies={["D3.js", "React", "Python", "API Integration"]}
               githubLink="#"
               liveLink="#"
@@ -304,7 +304,7 @@ const Index = () => {
             <ProjectCard
               title="Healthcare App UI"
               description="Modern healthcare application interface designed for optimal user experience."
-              image="/placeholder.svg"
+              image="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=500&fit=crop"
               technologies={["Figma", "UI/UX", "Prototype"]}
               liveLink="#"
               className={`transition-all duration-700 delay-500 ${isVisible.projects ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
@@ -312,7 +312,7 @@ const Index = () => {
             <ProjectCard
               title="Predictive Maintenance"
               description="ML system for predicting equipment failures in manufacturing environments."
-              image="/placeholder.svg"
+              image="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=500&fit=crop"
               technologies={["Python", "TensorFlow", "IoT", "Data Analysis"]}
               githubLink="#"
               className={`transition-all duration-700 delay-600 ${isVisible.projects ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
